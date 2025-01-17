@@ -2,7 +2,7 @@ macro_snip: macro_snip{
 compatible = "zmk,behavior-macro";
 label = "macro_snip";
 #binding-cells = <0>;
-bindings = <&sk RIGHT_WIN(LEFT_SHIFT)>, <&kp S>;
+bindings = <&sk LS(RIGHT_WIN)>, <&kp S>;
 };
 macro_shiftins: macro_shiftins{
 compatible = "zmk,behavior-macro";
